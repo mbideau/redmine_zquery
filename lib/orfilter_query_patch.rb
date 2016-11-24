@@ -20,22 +20,22 @@ module RedmineOrFilter
         return @available_filters if @available_filters
         available_filters_without_or_filters
         @available_filters["and_any"] = {
-            :name => "Any follow (AND)",
+            :name => l(:label_any_follow_and),
             :type => :list,
-            :values => ["Yes"],
+            :values => [l(:label_included)],
             :order =>  @available_filters.size + 1
         }
         
         @available_filters["or_any"] = {
-            :name => "Any follow (OR)",
+            :name => l(:label_any_follow_or),
             :type => :list,
-            :values => ["Yes"],
+            :values => [l(:label_included)],
             :order =>  @available_filters.size + 1
         }
         @available_filters["or_all"] = {
-            :name => "All follow (OR)",
+            :name => l(:label_all_follow_or),
             :type => :list,
-            :values => ["Yes"],
+            :values => [l(:label_included)],
             :order =>  @available_filters.size + 1
         }
         @available_filters

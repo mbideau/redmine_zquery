@@ -4,8 +4,10 @@ Redmine plugin that allows using simple OR between query filters
 
 ## Licence and History
 The files in this repository were imported from a Redmine plugin made by Quan VN _(without its permission, because I've not managed to contact him)_.
+
 Link to the original source code distributed in a ZIP file : http://www.redmine.org/plugins/boolean_query
-The name of the plugin was : _zquery_, then __query_ (to be loaded first), then _boolean query_ (as on the plugin page in redmine.org).
+
+The name of the plugin was : _zquery_, then _\_query_ (to be loaded first), then _boolean query_ (as on the plugin page in redmine.org).
 
 
 ## Installation
@@ -41,6 +43,7 @@ Notes:
 3. To help debug, I log the result of the statement method (with prefix STATEMENT) into log file at info level . You can exam this log to see if it works correctly
 
 4. Here is the list of plugins that work with this plugin (in redmine 2.6.5, ruby 2, rails 3.2.2)
+
 	a_common_libs
 	advanced_membership_management
 	due_date_reminder

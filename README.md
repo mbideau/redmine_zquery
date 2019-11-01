@@ -1,3 +1,9 @@
+# DEPRECATED
+
+See the following ticket for an updated version that works with Redmine 4.x
+http://www.redmine.org/issues/4939
+
+
 # redmine_zquery
 Redmine plugin that allows using simple OR between query filters
 
